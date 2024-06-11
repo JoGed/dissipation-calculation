@@ -8,4 +8,8 @@ the final density (netCDF), the design (STL) and material and simulation paramet
 ### Requirements {#requirements}
 - download this repository as well the dataset (under "Data and Resources") from the following URL:
 - replace the "data" dircetory with the downloaded directory sharing the same name
-- Create an environment (e.g. conda environment) with the python version and necessary packages that are listed in the requirements file `requirements.txt`
+- Create an environment (e.g. conda environment) with the python version and necessary packages that are listed in `requirements.txt`
+
+### Usage
+
+## Example
