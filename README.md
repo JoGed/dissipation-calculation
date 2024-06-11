@@ -19,7 +19,7 @@ Run: ``python analyze.py --dir_design=data/Au/Design``
 <p align="left">
 <img src="https://github.com/JoGed/dissipation-calculation/assets/83292544/b9971998-b672-4f53-90c7-9ab63489d96d" alt="Qabs_design_gold" width="300">
 </p>
-<p>Output: Absorption efficiency $Q_{\text{abs}}$ of TopOpt design.</p>
+<p>Output: Absorption efficiency $Q_{\text{abs}}$ of the design.</p>
 
 <br>
 
