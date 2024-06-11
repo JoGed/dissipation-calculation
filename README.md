@@ -5,7 +5,7 @@ dissipation in dispersive dielectric and plasmonic
 nanostructures_. The computations require the dataset provided at [data](https://data.uni-hannover.de:8080/dataset/upload/users/hot/johannes.gedeon/dataset-for-dissipation-calculation/), containing the electric field distribution in 3D for multiple wavelengths (netCDF), the final density (netCDF), the design (STL), and the material and simulation parameters (JSON) used in the optimization.
 
 ## Requirements 
-- Download this repository as well as the dataset (under "Data and Resources") from the following URL: [data](https://data.uni-hannover.de:8080/dataset/upload/users/hot/johannes.gedeon/dataset-for-dissipation-calculation/)
+- Download this repository as well as the dataset from the following URL: [data](https://data.uni-hannover.de:8080/dataset/upload/users/hot/johannes.gedeon/dataset-for-dissipation-calculation/)
 - Replace the "data" directory with the downloaded directory sharing the same name.
 - Create an environment (e.g., conda environment) with the Python version and necessary packages that are listed in `requirements.txt`.
 
