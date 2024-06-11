@@ -1,0 +1,5 @@
+python 3.9.18 
+matplotlib 3.8.0 
+numpy 1.26.3 
+netcdf4 1.6.2
+miepython 2.5.3 
