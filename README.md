@@ -11,7 +11,7 @@ This code allows for calculating and visualizing the electric power dissipation 
 The file `commands.txt` provides examples of prepared commands one can execute:
 - `analyze.py` computes and visualizes the absorption efficiency $Q_{\text{abs}}$. In addition, the flags `--store_q`, `--store_Eabs`, and `--store_dens` can be used to store the spatially interpolated data (based on the original one defined on the staggered Yee grid) for further computations or visualization as NetCDF files.
 - `verifyEpsilon.py` serves as a verification of the permittivity fit using the complex-conjugate pole-residue (CCPR) model.
-- `verifyMie.py` is used exclusively to verify the comparison of the absorption efficiency of a sphere with Mie theory. Make sure that you have first run `analyze.py` for the data set of a simple sphere, as the stored output is required for this calculation specifically.
+- `verifyMie.py` is used exclusively to verify the comparison of the absorption efficiency of a sphere with Mie theory. Make sure that you have first run `analyze.py` for the data set of the sphere, as the stored output is required for this calculation specifically.
 
 ## Examples
 ### TopOpt design (Gold)
