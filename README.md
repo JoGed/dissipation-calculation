@@ -11,5 +11,8 @@ the final density (netCDF), the design (STL) and material and simulation paramet
 - Create an environment (e.g. conda environment) with the python version and necessary packages that are listed in `requirements.txt`
 
 ## Usage
-
+The file `commands.txt` provide examples of preprepared commands one can execute
+- Running `analyze.py`, computes and vizualises the absorption effiency  `\(Q_{\text{abs}}\)`. In addition, the flags `--store_q`, `--store_Eabs`, and `--store_dens`
+  can be used to store the sptatially interpolated data (based on the original one defined on the staggered Yee grid) for further computations or vizualisation.
+-
 ### Example
