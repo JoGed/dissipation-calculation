@@ -12,7 +12,7 @@ the final density (netCDF), the design (STL) and material and simulation paramet
 
 ## Usage
 The file `commands.txt` provide examples of preprepared commands one can execute
-- Running `analyze.py`, computes and vizualises the absorption effiency  `\(Q_{\text{abs}}\)`. In addition, the flags `--store_q`, `--store_Eabs`, and `--store_dens`
-  can be used to store the sptatially interpolated data (based on the original one defined on the staggered Yee grid) for further computations or vizualisation.
--
+- `analyze.py`, computes and vizualises the absorption effiency $Q_{\text{abs}}$. In addition, the flags `--store_q`, `--store_Eabs`, and `--store_dens`can be used to store the spatially interpolated data (based on the original one defined on the staggered Yee grid) for further computations or vizualisation.
+- `verifyEpsilon.py` serves as a verification of the permittivity fit using the CCPR paramters, which also have been used for the optimization
+- `verifyMie.py` is used exclusively to verify the comparison of the absoprtion efficiency of a sphere with Mie theory. Make sure that you have first run analyze.py for the data set of a simple sphere, as the numerical data is required for the calculation.
 ### Example
