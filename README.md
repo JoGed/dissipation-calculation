@@ -18,5 +18,4 @@ The file `commands.txt` provide examples of preprepared commands one can execute
 
 ## Example: Gold
 
-<img src="output/image_NumpyArrayToSTL.jpg" alt="alt text" width="150" height="120">
-Converts an arbitrary numpy array to STL file.
+![Qabs_GoldDesign.pdf](https://github.com/user-attachments/files/15782885/Qabs_GoldDesign.pdf)
