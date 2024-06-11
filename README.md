@@ -17,5 +17,14 @@ The file `commands.txt` provide examples of preprepared commands one can execute
 - `verifyMie.py` is used exclusively to verify the comparison of the absoprtion efficiency of a sphere with Mie theory. Make sure that you have first run analyze.py for the data set of a simple sphere, as the stored output is required for this calculation specifically.
 
 ## Example: Gold
-
+`python analyze.py --dir_design=data/Au/Design`
 ![Qabs_design_gold](https://github.com/JoGed/dissipation-calculation/assets/83292544/b9971998-b672-4f53-90c7-9ab63489d96d)
+
+`python verifyEpsilon.py --lower_bound=0.3 --upper_bound=0.7 --dir_CCPR=data/Au/Design/materialTopOpt.json --dir_data=data/eps_data/Au_Johnson.txt --N=201`
+![eps_gold](https://github.com/JoGed/dissipation-calculation/assets/83292544/d4929d3c-2bac-40f0-aabd-739427f56100)
+
+`python analyze.py --dir_design=data/Au/Sphere`
+![Qabs_sphere_gold](https://github.com/JoGed/dissipation-calculation/assets/83292544/4ff32c4f-461a-4637-a9df-64dd37ef9984)
+
+`python verifyMie.py --dir_mie=data/Au/Sphere`
+![mie_gold](https://github.com/JoGed/dissipation-calculation/assets/83292544/316d7692-eb93-4031-9a66-c3c5c9c09134)
