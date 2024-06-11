@@ -18,4 +18,4 @@ The file `commands.txt` provide examples of preprepared commands one can execute
 
 ## Example: Gold
 
-![Qabs_GoldDesign.pdf](https://github.com/user-attachments/files/15782885/Qabs_GoldDesign.pdf)
+![Qabs_design_gold](https://github.com/JoGed/dissipation-calculation/assets/83292544/b9971998-b672-4f53-90c7-9ab63489d96d)
