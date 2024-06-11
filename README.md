@@ -7,7 +7,7 @@ nanostructures_. The computations require the dataset provided at [data](https:/
 ## Requirements 
 - Download this repository as well as the dataset from the following URL: [data](https://data.uni-hannover.de:8080/dataset/upload/users/hot/johannes.gedeon/dataset-for-dissipation-calculation/)
 - Replace the "data" directory with the downloaded directory sharing the same name.
-- Create an environment (e.g., conda environment) with the Python version and necessary packages that are listed in `requirements.txt`.
+- Create an environment (e.g., conda environment) with the with the python version and necessary packages (+versions) that are listed in `requirements.txt`.
 
 ## Usage
 The file `commands.txt` provides examples of prepared commands one can execute:
