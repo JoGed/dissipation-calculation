@@ -1,0 +1,24 @@
+-------------------------------------------------
+Gold
+-------------------------------------------------
+Design
+------
+python analyze.py --dir_design=data/Au/Design --store_q --store_Eabs --store_dens
+python verifyEpsilon.py --lower_bound=0.3 --upper_bound=0.7 --dir_CCPR=data/Au/Design/materialTopOpt.json --dir_data=data/eps_data/Au_Johnson.txt --N=201 
+
+Sphere
+------
+python analyze.py --dir_design=data/Au/Sphere
+python verifyMie.py --dir_mie=data/Au/Sphere
+-------------------------------------------------
+Silicon
+-------------------------------------------------
+Design
+------
+python analyze.py --dir_design=data/Si/Design
+python verifyEpsilon.py --lower_bound=0.3 --upper_bound=0.7 --dir_CCPR=data/Si/Design/materialTopOpt.json --dir_data=data/eps_data/Si_Schinke.txt --N=201 
+
+Sphere
+------
+python analyze.py --dir_design=data/Si/Sphere
+python verifyMie.py --dir_mie=data/Si/Sphere
