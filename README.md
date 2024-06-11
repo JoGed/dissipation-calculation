@@ -1,4 +1,4 @@
-# Documentation for dissipation-calculation {#README}
+# Documentation for dissipation-calculation
 
 This code allows for calculating and visualizing the electric power dissipation profile and its integration (absorption efficiency) of the TopOpt designs and spheres made of Gold and Silicon presented in the article _Time-domain topology optimization of the power
 dissipation in dispersive dielectric and plasmonic
