@@ -1,5 +1,10 @@
 # Documentation for dissipation-calculation
 
+<p align="left">
+<img src="https://github.com/JoGed/dissipation-calculation/assets/83292544/e6e8efff-4a4c-44d4-8ebf-f8d78da9b55a" alt="nc_files" width="500">
+</p>
+<br>
+
 This code allows for calculating and visualizing the electric power dissipation profile and its integration (absorption efficiency) of the TopOpt designs and spheres made of Gold and Silicon presented in the article _Time-domain topology optimization of the power
 dissipation in dispersive dielectric and plasmonic
 nanostructures_. The computations require the dataset provided at [data](https://data.uni-hannover.de:8080/dataset/upload/users/hot/johannes.gedeon/dataset-for-dissipation-calculation/), containing the electric field distribution in 3D for multiple wavelengths (netCDF), the final density (netCDF), the design (STL), and the material and simulation parameters (JSON) used in the optimization.
@@ -46,5 +51,5 @@ Run: ``python verifyMie.py --dir_mie=data/Au/Sphere``
 </p>
 <p>Output: Absorption efficiencies $Q_{\text{abs}}$ of the sphere compared to Mie theory ($d$=300nm).</p>
 
-<br>
+
 
