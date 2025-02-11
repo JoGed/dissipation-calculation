@@ -7,10 +7,10 @@
 
 This code allows for calculating and visualizing the electric power dissipation profile and its integration (absorption efficiency) of the TopOpt designs and spheres made of Gold and Silicon presented in the article _Time-domain topology optimization of the power
 dissipation in dispersive dielectric and plasmonic
-nanostructures_ ([link](https://doi.org/10.1109/TAP.2024.3517156)). The computations require the dataset provided at [data](https://data.uni-hannover.de:8080/dataset/upload/users/hot/johannes.gedeon/dataset-for-dissipation-calculation/), containing the electric field distribution in 3D for multiple wavelengths (netCDF), the final density (netCDF), the design (STL), and the material and simulation parameters (JSON) used in the optimization.
+nanostructures_ ([link](https://doi.org/10.1109/TAP.2024.3517156)). The computations require the dataset provided at [data](https://data.uni-hannover.de/ne/dataset/dataset-for-dissipation-calculation), containing the electric field distribution in 3D for multiple wavelengths (netCDF), the final density (netCDF), the design (STL), and the material and simulation parameters (JSON) used in the optimization.
 
 ## Requirements 
-- Download this repository as well as the dataset from the following URL: [data](https://data.uni-hannover.de:8080/dataset/upload/users/hot/johannes.gedeon/dataset-for-dissipation-calculation/)
+- Download this repository as well as the dataset from the following URL: [data](https://data.uni-hannover.de/ne/dataset/dataset-for-dissipation-calculation)
 - Replace the "data" directory with the downloaded directory sharing the same name.
 - Create an environment (e.g., conda environment) with the python version and necessary packages (+versions) that are listed in `requirements.txt`.
 
